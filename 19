@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main() {
+    int arreglo
+    while (i < 20) {
+        arreglo[i] = i + 1;  /
+        i++;
+    }
+    i = 0; 
+    while (i < 20) {
+        suma += arreglo[i];  
+        producto *= arreglo[i];  
+        i++;
+    }
+    float promedio = (float)suma / 20;
+    printf("Promedio: %.2f\n", promedio);
+    printf("Multiplicación de todos los elementos: %lld\n", producto);
+
+    return 0;
+}
