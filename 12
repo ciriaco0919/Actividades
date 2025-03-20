@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main() {
+    for (int i = 3; i < 1000; i += 3) {
+        printf("%d", i);
+        if (i + 3 < 1000) {
+            printf(", ");
+        }
+    }
+    printf("\n"); 
+    return 0;
+}
+
+ {
+    // Empezamos en 21, ya que es el primer múltiplo común de 3 y 7
+    for (int i = 21; i < 1000; i += 21) {
+        printf("%d", i);
+        // Si el siguiente múltiplo es menor a 1000, imprime la coma y el espacio
+        if (i + 21 < 1000) {
+            printf(", ");
+        }
+    }
+    printf("\n"); // Salto de línea al finalizar
+    return 0;
